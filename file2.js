@@ -1,4 +1,4 @@
-const value2 = require('./file1.js');
+const {a:x,b:y} = require('./file1.js');
+const add = require('./utils/add.js');
 
-console.log(value2.a);
-console.log(value2.b);
+console.log(add(x,y));
