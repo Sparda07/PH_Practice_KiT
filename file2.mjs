@@ -1,5 +1,4 @@
 import a from './file1.mjs'
-import { b as x } from './utils/file3.mjs'
+import { add } from './utils/file3.mjs'
 
-console.log(a) // 100
-console.log(x) // 200
+console.log(add(10, 20));
